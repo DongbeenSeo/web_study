@@ -1,0 +1,58 @@
+@charset "utf-8";
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+legend,
+.a11y-hidden {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    margin: -1px;
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+.header {
+    width: 1000px;
+    height: 100px;
+    border: 1px solid gray;
+    background: tan;
+    margin: 0 auto;
+    position: relative;
+}
+
+.title {
+    width: 300px;
+    height: 100px;
+    background: pink;
+    float: left;
+    text-align: center;
+}
+
+.member {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.member li {
+    list-style-type: none;
+    display: inline;
+}
+
+.member a {
+    text-decoration: none;
+}
+
+.search {
+    background-color: skyblue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

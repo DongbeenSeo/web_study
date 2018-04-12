@@ -1,0 +1,19 @@
+.container {
+    box-sizing: border-box;
+    border: 2px solid pink;
+}
+
+.box1 {
+    border: 5px solid red;
+    width: 150px;
+    margin: 30px;
+    padding: 30px;
+    /* position: absolute;
+    clip: rect(0, 0, 0, 0); */
+}
+
+.box2 {
+    border: 5px solid red;
+    width: 150px;
+    margin: 30px;
+}

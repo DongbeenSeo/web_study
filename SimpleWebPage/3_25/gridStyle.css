@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin: 0;
+    padding: 20px;
+}
+
+.list {
+    border-right: 1px solid gray;
+    width: 100px;
+    margin: 0;
+    padding-right: 30px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.article {
+    padding-left: 10px;
+}

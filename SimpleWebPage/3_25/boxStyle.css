@@ -1,0 +1,21 @@
+@charset "utf-8";
+.header {
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.main {
+    display: flex;
+    align-content: space-between;
+}
+
+.list {
+    border-right: 1px solid gray;
+    width: 150px;
+    padding-right: 10px;
+    align-content: center;
+}
+
+.description {
+    padding-left: 30px;
+}
