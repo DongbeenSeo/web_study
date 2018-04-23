@@ -1,0 +1,147 @@
+@charset "utf-8";
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* @media screen and ( max-width: 999px) {
+    .header {
+        text-align: center;
+        line-height: 60px;
+        margin: 0 0 30px 0;
+        border-bottom: 1px solid black;
+    }
+    .list {
+        text-align: center;
+        height: 10vh;
+    }
+    .list li {
+        display: inline;
+    }
+    .description {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    a {
+        color: black;
+        text-decoration: none;
+    }
+    .header {
+        font-size: 3em;
+        text-align: center;
+        border-bottom: 1px solid black;
+        padding: 20px;
+        display: block;
+    }
+    .saw {
+        color: gray;
+    }
+    #active {
+        color: red;
+    }
+    .list {
+        border-right: 1px solid black;
+        width: 500px;
+        height: 100vh;
+        margin: 0 20px;
+        padding: 20px;
+    }
+    .main {
+        display: flex;
+    }
+    .description {
+        padding: 10px 0;
+    }
+    .articleHeader {
+        margin: 0 0 10px 0;
+    }
+} */
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    height: auto;
+}
+
+.title {
+    font-size: 3em;
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding: 0 0 20px;
+    display: block;
+}
+
+
+/* .saw {
+    color: gray;
+}
+
+#active {
+    color: red;
+} */
+
+.list {
+    border-right: 1px solid black;
+    width: 500px;
+    height: 100vh;
+    margin: 0 20px;
+    padding: 30px;
+    display: block;
+}
+
+.list li {
+    margin-bottom: 10px;
+    transition: transform 1s;
+}
+
+.list li:hover,
+.list a:hover {
+    color: red;
+    text-shadow: #FC0 1px 0 10px;
+    transform: scale(1.5) translateX(20px);
+}
+
+.main {
+    display: flex;
+}
+
+.description {
+    padding: 10px 0;
+}
+
+.articleHeader {
+    margin: 0 0 10px 0;
+}
+
+.colorList li {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 20px;
+    border-radius: 50px;
+    transition: transform 1s;
+}
+
+.colorList li:hover {
+    transform: scale(2);
+}
+
+.headerList1 {
+    background: rgb(128, 43, 228);
+}
+
+.headerList2 {
+    background: rgb(157, 234, 137);
+}
+
+.headerList3 {
+    background: rgb(223, 198, 136);
+}
