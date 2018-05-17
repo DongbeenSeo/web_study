@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>URL Shortener</h1>
+    <p>
+    <h2>morgan</h2>
+    HTTP request logger middleware for node.js
+    </p>
+    <table>
+    <tr>
+        <th>Original URL</th>
+        <th>Shorten URL</th>
+    </tr>
+    <% urls.forEach(urlItem => { %>
+        <tr>
+        <td><%= urlItem.longUrl%></td>
+        <td><a href="http://<%= host %>/<%= urlItem.slug%>"><%= urlItem.slug%></a></td>
+        </tr>
+    <%}) %>
+    </table>
+</body>
+</html>
