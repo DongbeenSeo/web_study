@@ -27,39 +27,7 @@
 }
 
 @media screen and (min-width: 1000px) {
-    a {
-        color: black;
-        text-decoration: none;
-    }
-    .header {
-        font-size: 3em;
-        text-align: center;
-        border-bottom: 1px solid black;
-        padding: 20px;
-        display: block;
-    }
-    .saw {
-        color: gray;
-    }
-    #active {
-        color: red;
-    }
-    .list {
-        border-right: 1px solid black;
-        width: 500px;
-        height: 100vh;
-        margin: 0 20px;
-        padding: 20px;
-    }
-    .main {
-        display: flex;
-    }
-    .description {
-        padding: 10px 0;
-    }
-    .articleHeader {
-        margin: 0 0 10px 0;
-    }
+
 } */
 
 a {
@@ -78,15 +46,6 @@ body {
     padding: 0 0 20px;
     display: block;
 }
-
-
-/* .saw {
-    color: gray;
-}
-
-#active {
-    color: red;
-} */
 
 .list {
     border-right: 1px solid black;
