@@ -1,0 +1,238 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "fast",
+      "author": "campus",
+      "id": 2
+    },
+    {
+      "title": "FAST!!!",
+      "id": 3
+    },
+    {
+      "title": "FAST!!!",
+      "id": 4
+    },
+    {
+      "title": "FAST!!!",
+      "id": 5
+    },
+    {
+      "title": "FAST!!!",
+      "id": 6
+    },
+    {
+      "title": "FAST!!!",
+      "id": 7
+    },
+    {
+      "title": "FAST!!!",
+      "id": 8
+    },
+    {
+      "title": "FAST!!!",
+      "id": 9
+    },
+    {
+      "title": "FAST!!!",
+      "id": 10
+    },
+    {
+      "title": "FAST!!!",
+      "id": 11
+    },
+    {
+      "title": "FAST!!!",
+      "id": 12
+    },
+    {
+      "title": "FAST!!!",
+      "id": 13
+    },
+    {
+      "title": "FAST!!!",
+      "id": 14
+    },
+    {
+      "title": "FAST!!!",
+      "id": 15
+    },
+    {
+      "title": "FAST!!!",
+      "id": 16
+    },
+    {
+      "title": "FAST!!!",
+      "id": 17
+    },
+    {
+      "title": "FAST!!!",
+      "id": 18
+    },
+    {
+      "title": "FAST!!!",
+      "id": 19
+    },
+    {
+      "title": "FAST!!!",
+      "id": 20
+    },
+    {
+      "title": "FAST!!!",
+      "id": 21
+    },
+    {
+      "title": "FAST!!!",
+      "id": 22
+    },
+    {
+      "title": "FAST!!!",
+      "id": 23
+    },
+    {
+      "title": "FAST!!!",
+      "id": 24
+    },
+    {
+      "title": "FAST!!!",
+      "id": 25
+    },
+    {
+      "title": "FAST!!!",
+      "id": 26
+    },
+    {
+      "title": "FAST!!!",
+      "id": 27
+    },
+    {
+      "title": "FAST!!!",
+      "id": 28
+    },
+    {
+      "title": "FAST!!!",
+      "id": 29
+    },
+    {
+      "title": "FAST!!!",
+      "id": 30
+    },
+    {
+      "title": "FAST!!!",
+      "id": 31
+    },
+    {
+      "title": "FAST!!!",
+      "id": 32
+    },
+    {
+      "title": "FAST!!!",
+      "id": 33
+    },
+    {
+      "title": "FAST!!!",
+      "id": 34
+    },
+    {
+      "title": "FAST!!!",
+      "id": 35
+    },
+    {
+      "title": "FAST!!!",
+      "id": 36
+    },
+    {
+      "title": "FAST!!!",
+      "id": 37
+    },
+    {
+      "title": "FAST!!!",
+      "id": 38
+    },
+    {
+      "title": "FAST!!!",
+      "id": 39
+    },
+    {
+      "title": "FAST!!!",
+      "id": 40
+    },
+    {
+      "title": "FAST!!!",
+      "id": 41
+    },
+    {
+      "title": "FAST!!!",
+      "id": 42
+    },
+    {
+      "title": "FAST!!!",
+      "id": 43
+    },
+    {
+      "title": "FAST!!!",
+      "id": 44
+    },
+    {
+      "title": "FAST!!!",
+      "id": 45
+    },
+    {
+      "title": "FAST!!!",
+      "id": 46
+    },
+    {
+      "title": "FAST!!!",
+      "id": 47
+    },
+    {
+      "title": "FAST!!!",
+      "id": 48
+    },
+    {
+      "title": "FAST!!!",
+      "id": 49
+    },
+    {
+      "title": "fast",
+      "author": "campus",
+      "id": 50
+    },
+    {
+      "title": "fast",
+      "author": "campus",
+      "id": 51
+    },
+    {
+      "title": "fast",
+      "author": "campus",
+      "id": 52
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "body": "대댓글...",
+      "postId": "1",
+      "id": 2
+    },
+    {
+      "body": "대댓글...",
+      "postId": "2",
+      "id": 3
+    }
+  ],
+  "profile": {
+    "title": "fast",
+    "author": "campus"
+  }
+}
